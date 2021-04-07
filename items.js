@@ -1,4 +1,4 @@
-const items=[
+ const items=[
     {
         nameOfProduct:"Samsung Galaxy A71",
         image:"https://images-na.ssl-images-amazon.com/images/I/61cuYp3qIvL._AC_SL1000_.jpg",
@@ -7,7 +7,7 @@ const items=[
     },
     {
         nameOfProduct:"Samsung Galaxy Note10 Lite",
-        image:"https://www.kickmobiles.com/images/thumbs/0011981_samsung-galaxy-note10-lite-dual-sim-sm-n770f-128gb-aura-black-aura-glow-_610.jpeg",
+        image:"https://images-na.ssl-images-amazon.com/images/I/71T0KJFxCHL._SY606_.jpg",
         price:462.94,
         category:"mobiles"
     },
