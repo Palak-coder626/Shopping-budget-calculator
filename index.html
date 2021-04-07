@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/1a0215f38e.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+            <div class="container">
+            <div class="sidebar">
+              <h2 class="sidebar-title">Categories of items</h2>
+              <hr>
+              <ul class="categories">
+                <li><a class="sidebar-link-mobile" href="#mobiles">Mobiles and Computers</a></li>
+                <li><a class="sidebar-link-sports" href="#sports">Sports and Fitness</a></li>        
+                <li><a class="sidebar-link-home" href="#home">Home and Kitchen</a></li>
+                <li><a class="sidebar-link-books" href="#books">Books</a></li>
+                </ul>
+                <span class="light-dark-toggle" title="Change to dark mode" id="change-theme"><i class="fas fa-moon"></i></span>
+            </div>
+            <main>
+            <h1>Shopping Budget Calculator</h1>
+            <p class="subhead">Pre-plan your shopping according to your budget...</p>
+              <section id="mobiles">
+                  <h3>Mobiles and Computers</h3>
+                  <hr>
+                  <div class="grid-container"> </div>
+                  </section>
+                 <section class="hidden" id="sports">
+                    <h3>Sports and fitness</h3>
+                    <hr>
+                    <div class="grid-container"> </div>
+                  </section>
+                       <section class="hidden" id="home">
+                        <h3>Home and Kitchen</h3>
+                        <hr>
+                        <div class="grid-container"> </div>
+                  </section>
+                       <section class="hidden" id="books">
+                        <h3>Books</h3>
+                        <hr>
+                        <div class="grid-container"> </div>
+                  </section>
+                  <div class="your-wishlist" id="yourwishlist">Wishlist <i class="fas fa-shopping-cart"></i> : <span id="numberOfItems">Your wishlist is empty</span><br>
+                    <table class="hidden" id="wishlist">
+                        <thead>
+                        <tr>
+                            <th>S.No.</th>
+                            <th>Product Name</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                        </tr>
+                        </thead>
+                   </table>
+                    </div>        
+            <h2>What's your budget?</h2>
+            <input id="budget" type="text" placeholder="Enter your budget here"></input>
+            <button id="show" title="See if you can buy all wishlisted items!">Give it to me straight!</button>
+           <div class="output hidden"><hr><p id="output-text"></p>
+            <p id="recommendation"></p>
+        <button>OK</button></div> 
+        </main>   
+        </div>
+  
+        <script src="index.js" type="module"></script>
+    </body>
+</html>
